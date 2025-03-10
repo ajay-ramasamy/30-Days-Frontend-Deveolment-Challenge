@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Book</title>
+    <link rel="stylesheet" href="book.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Playwrite+DE+VA+Guides&display=swap" rel="stylesheet">
+</head>
+<body>
+    <div class="navbar">
+        <h1>book</h1>
+    </div>
+    <div class="container">
+        <div class="b-container">
+            <h2>richard</h2>
+            <h5>robert</h5>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Minus ea minima odit debitis exercitationem dolorum, fuga ducimus provident cumque sapiente eveniet assumenda vero obcaecati veniam dicta rem accusantium temporibus officia?</p>
+            <button onclick="deleteb(event)">delete</button>
+        </div>
+    </div>
+    <div class="overlay"></div>
+    <div class="box">
+        <h2>add book</h2>
+        <form>
+            <input type="text" placeholder="book title" id="book-title">
+            <input type="text" placeholder="author name" id="author">
+            <textarea placeholder="short description" id="description"></textarea>
+            <button id="add-b">add</button>
+            <button id="cancel-b">cancel</button>
+        </form>
+    </div>
+
+
+
+    <button class="add-btn" id="add-pop">+</button>
+
+
+    <script src="book.js"></script>
+</body>
+</html>
