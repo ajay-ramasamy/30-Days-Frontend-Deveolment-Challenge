@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Game</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <div class="box">
+        <h1 class="heading">Guess a Number (0 to 10)</h1>
+        <input type="number" class="a" placeholder="Enter your guess">
+        <button class="b" onclick="check()">Check</button>
+        <p id="feedback" style="color: white; font-size: 1.2rem;"></p>
+        <button class="b" style="background-color: red;" onclick="resetGame()">Reset</button>
+    </div>    
+
+    <!-- Popup Structure -->
+    <div class="popup" id="popup">
+        <div class="popup-content">
+            <h2>Congratulations! 🎉</h2>
+            <p>You guessed the correct number!</p>
+            <button class="b" onclick="closePopup()">Close</button>
+        </div>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
